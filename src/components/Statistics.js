@@ -31,13 +31,15 @@ export default function Statistics({ countries }) {
   return (
     <>
       <div className='center'>
-        {filteredLanguages.map(({ language, value }) => {
-          return (
-            <h1 key={language}>
-              {language} - {value}
-            </h1>
-          );
-        })}
+        <ol>
+          {filteredLanguages.map(({ language, value }) => {
+            return (
+              <li key={language}>
+                {language} - {value}
+              </li>
+            );
+          })}
+        </ol>
       </div>
     </>
   );

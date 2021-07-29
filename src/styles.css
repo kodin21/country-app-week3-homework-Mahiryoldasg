@@ -87,6 +87,9 @@ p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-5);
 }
+li {
+  font-size: 3rem;
+}
 
 header {
   width: 100%;
